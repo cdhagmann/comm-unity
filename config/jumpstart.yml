@@ -1,0 +1,22 @@
+---
+application_name: CommUnity
+business_name: Grey Nax
+business_address: 
+domain: greynax.com
+support_email: comm-unity@greynax.com
+default_from_email: CommUnity <no-reply@greynax.com>
+background_job_processor: solid_queue
+email_provider: 
+account_types: personal
+apns: true
+fcm: true
+integrations:
+omniauth_providers:
+- facebook
+- google-oauth2
+payment_processors:
+multitenancy:
+- path
+gems:
+- acts_as_tenant
+- whenever
